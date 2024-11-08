@@ -16,6 +16,7 @@ function RealTimeData() {
 
   const date = currentDateTime.toLocaleDateString(); // e.g., '11/7/2024'
   const time = currentDateTime.toLocaleTimeString(); // e.g., '14:30:45'
+  
   return (
     <div className='realtimedatadiv align-items-center shadow w-100'>
       <div className='row px-sm-4  pt-2 px-3'>

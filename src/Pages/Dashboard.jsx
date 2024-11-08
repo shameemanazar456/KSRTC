@@ -7,6 +7,9 @@ function Dashboard() {
   return (
     <div>
       <Header/>
+      <div className='col-md-10 w-100'>
+          <RealTimeData/>
+        </div>
     </div>
   )
 }

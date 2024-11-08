@@ -59,9 +59,7 @@ function Header() {
        { isOpen && <div className={`col-md-2 col-sm-12 sidenav shadow ${isOpen ? 'open' : ''}`}>
           <NavSidebar/>
           </div>}
-        <div className='col-md-10 w-100'>
-          <RealTimeData/>
-        </div>
+        
     </div>
     
     
